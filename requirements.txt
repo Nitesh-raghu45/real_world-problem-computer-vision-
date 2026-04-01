@@ -1,0 +1,22 @@
+# Core ML / CV
+ultralytics>=8.2.0        # YOLOv8 detector
+supervision>=0.21.0       # tracking utilities (ByteTrack, annotators)
+torch>=2.0.0              # PyTorch backend
+torchvision>=0.15.0       # image transforms
+ 
+# Video / image processing
+opencv-python-headless>=4.9.0
+numpy>=1.24.0
+Pillow>=10.0.0
+ 
+# Plotting & visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+scipy>=1.11.0             # Gaussian blur for heatmap
+ 
+# Video download
+yt-dlp>=2024.1.0
+ 
+# Utilities
+tqdm>=4.66.0
+PyYAML>=6.0
